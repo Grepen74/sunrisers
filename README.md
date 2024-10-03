@@ -16,10 +16,12 @@ It then uses an external API (https://sunrise-sunset.org/api) to download the su
 3. Sunrise data is now displayedr in a list.
 4. Tapping on a specific sunrise date in the list will reveal a tiny bit more information in a details view.
 
-Both location and latest sunrise data is persisted and will be remembered if the application is launched anew.
+* Both location and latest sunrise data is persisted and will be remembered if the application is launched anew.
 
-Both iOS & iPad, horizontal & vertical orientation, light and dark theme supported. 
+* Both iOS & iPad, horizontal & vertical orientation, light and dark theme supported. 
 
-Built and tested using XCode 16, iOS/iPad OS 18 & Swift 6
+* Built and tested using XCode 16, iOS/iPad OS 18 & Swift 6
 
 NOTE: if running in Simulator - there seems to be a framework bug where the location button sometimes goes missing. Changing orientation on simulator back and forth brings the button back. Have not seen the issue on real device.
+
+![image](https://github.com/user-attachments/assets/5545f1a4-037c-44c9-bce6-4c23638722af)
